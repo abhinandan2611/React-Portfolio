@@ -1,0 +1,107 @@
+.navbar {
+    background-color: var(--yellow-theme-nav-background-color);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000; // Ensure navbar is on top
+
+    &__container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: inherit;
+        padding: 0 20px;
+        flex: 1;
+        position: relative; // To position menu absolutely within container
+
+        &__logo {
+            color: var(--yellow-theme-main-color);
+            cursor: pointer;
+        }
+
+        &__menu {
+            display: flex;
+            list-style: none;
+            text-align: center;
+            margin-left: auto; // Push menu to the right
+
+            &__item {
+                line-height: 40px;
+                margin-right: 1.5rem;
+                font-size: 1.6rem;
+
+                &::after {
+                    content: '';
+                    display: block;
+                    height: 3px;
+                    width: 0;
+                    background: transparent;
+                    transition: all 0.5s ease;
+                }
+
+                &:hover::after {
+                    width: 100%;
+                    background: var(--yellow-theme-main-color);
+                }
+
+                &__links {
+                    color: var(--yellow-theme-main-color);
+                    text-decoration: none;
+                    padding: 0.5rem;
+                }
+            }
+        }
+    }
+
+    .nav-icon {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        z-index: 1000; // Ensure navbar is on top
+    }
+
+    .navbar__container {
+        &__menu {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: calc(100vh - 80px); // Full height minus navbar
+            position: absolute;
+            top: 80px;
+            left: -100%;
+            opacity: 0;
+            transition: all 0.5s ease;
+            background: var(--yellow-theme-nav-background-color); // Set background when open
+
+            &__item {
+                border-bottom: 1px solid #fff;
+                margin: 0;
+                padding: 20px 0;
+            }
+
+            &.active {
+                left: 0;
+                opacity: 1;
+            }
+        }
+
+        .nav-icon {
+            display: block;
+            cursor: pointer;
+            color: var(--yellow-theme-main-color);
+            padding-right: 20px;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}
