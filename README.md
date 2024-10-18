@@ -1,3 +1,5 @@
+Due to privacy reasons the git links of the projects are blocked.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
