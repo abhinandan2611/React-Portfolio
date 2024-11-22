@@ -18,19 +18,19 @@ export const data ={
             title:"Secondary (10th Grade)",
             subTitle:"Poorna Prajna Education Centre",
             description:
-             "Scored 80.3% ",
+             "Scored 94.3% ",
         },
         {
             title:"Higher Secondary (12th Grade (PCME))",
             subTitle:"Shri Chaitanya PU College",
             description:
-              "Scored 77%",
+              "Scored 89%",
         },
         {
             title: " Bachelor of Technology (Electronics & communications)",
             subTitle: "Presidency University",
             description:
-              " Scored 7.08Cgpa",
+              " Scored 8.86Cgpa",
         },
     ],
 };
