@@ -30,7 +30,7 @@ export const data ={
             title: " Bachelor of Technology (Electronics & communications)",
             subTitle: "Presidency University",
             description:
-              " Scored 7.08 Cgpa",
+              " Scored 7.08 Cgpa", 
         },
     ],
 };
