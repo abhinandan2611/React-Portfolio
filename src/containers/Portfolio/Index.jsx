@@ -18,7 +18,7 @@ const portfolioData = [
         id: 3,
         name: "Dashboards",
         image: Imagethree,
-        link: 'https://github.com/user/dashboards'  // Insert actual GitHub link here
+        link: 'https://github.com/abhinandan2611/Power-Bi'  // Insert actual GitHub link here
     },
     {
         id: 2,
