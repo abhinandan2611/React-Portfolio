@@ -19,7 +19,9 @@ const Home = () => {
                 <h1>
                     Hello, I am Abhinandan
                     <br />
-                    Fullstack developer 
+                    Fullstack developer and
+                    <br />
+                    Business Data Analyst
                 </h1>
             </div>
             <Animate
