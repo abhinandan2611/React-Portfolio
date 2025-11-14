@@ -59,8 +59,8 @@ const personalDetails = [
 
 ];
 
-const jobSummary = 'Highly motivated software developer with 1+ years of experience specializing in .NET technologies, ReactJS, and SQL. Proficient in building and maintaining scalable, high-performance applications with a focus on full-stack development. Proven track record in delivering robust solutions for banking services, utilizing modern frameworks and technologies to streamline processes and enhance user experience. Strong problem-solving skills, with expertise in database management and front-end development, enabling seamless integration between back-end services and user interfaces.';
-
+const jobSummary = 'Detail-oriented and results-driven Data Analyst with almost 2 years of experience in delivering actionable business intelligence solutions for banking clients. Proficient in Power BI, SQL, Python, and data storytelling. Adept at building interactive dashboards, designing ETL pipelines, and translating complex datasets into strategic insights. Currently pursuing MSc in Business Intelligence and Data Science in Germany.'; 
+ 
 const About = () => {
     return (
         <section id="about" className="about">
