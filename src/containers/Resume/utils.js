@@ -4,13 +4,15 @@ export const data ={
             title:"Associate Engineer I",
             subTitle: " SLK Software, Bengaluru, India",
             description:
-            " User Experience, Visual Design , Frontend",
+            " User Experience, Visual Design , Frontend"
+            " Web Development, Database,Backend Development",
         },
         {
             title:"Associate Engineer II",
             subTitle:" SLK Software, Bengaluru, India",
             description:
-               "Web Development, Database,Backend Development",
+               "SQL, Python, PowerBI, Power Automate, Data Analysis, MS Excel"
+               "KPI Tracking, Data Cleaning, Data Warehousing"
         },
     ],
     education: [
