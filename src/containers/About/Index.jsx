@@ -18,7 +18,7 @@ const personalDetails = [
     },
     {
         label: "Age:",
-        value: "22",
+        value: "23",
     },
     {
         label: "Location:",
@@ -39,7 +39,7 @@ const personalDetails = [
     },
     {
         label: "Contact No:",
-        value: "+91 9945228710",
+        value: "+49 15565618667",
     },
     {
         label: "LinkedIn:",
